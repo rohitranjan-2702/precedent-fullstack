@@ -1,5 +1,5 @@
 // prettier.config.js
-module.exports = {
+const config = {
   bracketSpacing: true,
   semi: true,
   trailingComma: "all",
@@ -7,3 +7,5 @@ module.exports = {
   tabWidth: 2,
   plugins: [require("prettier-plugin-tailwindcss")],
 };
+
+export default config;
